@@ -1,20 +1,20 @@
 (function() {
   'use strict';
-  
-  // User profile module config
+
+  // Profile module config
   angular
-  .module('user-profile')
-  .run(menuConfig);
-  
+    .module('profile')
+    .run(menuConfig);
+
   menuConfig.$inject = ['Menus'];
-  
+
   function menuConfig(Menus) {
     // Config logic
     // ...
-    Menus.addMenuItem('topbar', { // I manually added this part here (Matt).
+    Menus.addMenuItem('topbar', {
       title: 'Profile',
       state: 'profile',
-      roles: ['*'] 
+      roles: ['*']
     });
   }
 })();

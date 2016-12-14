@@ -7,7 +7,7 @@ var path = require('path'),
   config = require(path.resolve('./config/config'));
 
 /**
- * User profile module init function.
+ * Profile module init function.
  */
 module.exports = function (app, db) {
 

@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('user-profile')
+    .module('profile')
     .controller('ProfileController', ProfileController);
 
   ProfileController.$inject = ['$scope'];
