@@ -1,11 +1,15 @@
 <section class="container">
-  <h3>My Profile</h3>
+  <div class="page-header">
+    <h2><span ng-bind="user.displayName"></span>'s Profile</h2>
+  </div>
   <div class="row">
-    <div class="col-sm-4">
-      Stuff here!
+    <div class="col-sm-12">
+      <h3>About Me</h3>
+      <p ng-bind="user.description"></p>
     </div>
-    <div class="col-sm-8">
-      <p>This is a test profile</p>
+    <div class="col-sm-12">
+      <h3>Email</h3>
+      <p ng-bind="user.email"></p>
     </div>
   </div>
 </section>
