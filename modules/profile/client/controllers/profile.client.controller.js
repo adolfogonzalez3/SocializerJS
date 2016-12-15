@@ -16,6 +16,9 @@
     init();
 
     function init() {
+      $scope.user = {
+        displayName: 'John Doe'
+      };
     }
   }
 })();
